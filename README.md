@@ -180,6 +180,11 @@ Carbon intensity indicators
 
 # Generation: Seasonal Decomposition
 <img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/2e97837f-4c0a-4b5b-a8e4-bed6db57694b" />
+<img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/0ba6bd95-377e-4ed2-8eb7-1c6535f554f0" />
+<img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/5755fd0f-78ab-4745-850c-7bcc391980aa" />
+<img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/d86a7196-db93-40f5-be2d-3d3714e76f4b" />
+<img width="1589" height="1189" alt="download" src="https://github.com/user-attachments/assets/5a61e3b7-74a0-46b5-bcd2-113eb45b80d8" />
 
+# Wind VS Solar 
 
 
