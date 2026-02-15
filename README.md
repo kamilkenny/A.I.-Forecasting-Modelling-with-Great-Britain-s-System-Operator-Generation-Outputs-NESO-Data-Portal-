@@ -6,7 +6,7 @@ This study analyzes UK electricity generation data with the objective of underst
 # Data Source - Historic GB Generation Mix
 Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
 
-# The Design and Development was done in Phyton and uploaded as a file in this respository 
+# The Design and Development was done in Python and uploaded as a file in this respository 
 
 # Introduction
 
