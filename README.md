@@ -231,7 +231,8 @@ is_weekend (True/False)
 
 # Modeling 
 
-                  <img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/bbb2e627-d6f1-4f45-b5ec-8940df852279" />
+            
+<img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/ae8211bc-73a5-41c1-a2d2-6b0a19441913" />
 
 
 
