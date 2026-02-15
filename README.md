@@ -228,7 +228,10 @@ GAS_ratio, COAL_ratio, WIND_ratio, SOLAR_ratio
 is_weekend (True/False)
 
 # DAY-AHEAD (SHORT-TERM) TOTAL GENERATION FORECASTING USING XGBOOST
-<img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/bbb2e627-d6f1-4f45-b5ec-8940df852279" />
+
+# Modeling 
+
+                  <img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/bbb2e627-d6f1-4f45-b5ec-8940df852279" />
 
 
 
