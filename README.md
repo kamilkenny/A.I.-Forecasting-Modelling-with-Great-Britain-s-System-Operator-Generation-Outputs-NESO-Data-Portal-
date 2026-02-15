@@ -185,6 +185,265 @@ Carbon intensity indicators
 <img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/d86a7196-db93-40f5-be2d-3d3714e76f4b" />
 <img width="1589" height="1189" alt="download" src="https://github.com/user-attachments/assets/5a61e3b7-74a0-46b5-bcd2-113eb45b80d8" />
 
-# Wind VS Solar 
+# FEATURES ENGINEERING
+More Time-Based Features
+I want the model to capture daily, weekly, and yearly patterns:
+
+# Original generation sources
+GAS, COAL, NUCLEAR, WIND, WIND_EMB, HYDRO, SOLAR, BIOMASS, IMPORTS, OTHER, STORAGE
+
+# Aggregate/derived columns:
+GENERATION (total), CARBON_INTENSITY, LOW_CARBON, ZERO_CARBON, RENEWABLE, FOSSIL
+
+# Percentage columns:
+e.g., GAS_perc, COAL_perc, NUCLEAR_perc, WIND_perc, ... , RENEWABLE_perc, FOSSIL_perc
+
+# Time-based features (cyclic encoding):
+hour, hour_sin, hour_cos
+
+weekday, weekday_sin, weekday_cos
+
+month, month_sin, month_cos
+
+# Lag/rolling features:
+GENERATION_lag_1, GENERATION_lag_24, GENERATION_lag_168
+
+GENERATION_roll_24, GENERATION_roll_168
+
+GENERATION_std_24
+
+# Source ratios:
+GAS_ratio, COAL_ratio, WIND_ratio, SOLAR_ratio
+
+# Weekday/weekend indicator:
+is_weekend (True/False)
+
+Day-ahead (short-term) total generation forecasting using XGBoost
+<img width="1023" height="470" alt="download" src="https://github.com/user-attachments/assets/bb0e775e-cf66-4ed2-9079-17ddb14df701" />
+<img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/fb1c815f-399d-4f4e-8581-8256fa1663d2" />
+<img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/c0436351-75a1-4823-9803-a4d8584da161" />
+# 1️⃣ R² = 0.9923 → Extremely High Fit
+
+# R² of 0.9923 means:
+
+The model explains 99.23% of the variance in total generation. For electricity demand/generation forecasting, anything above:
+
+0.95 = strong
+
+0.98 = very strong
+
+0.99 = near-perfect short-term fit
+
+So statistically, this is excellent.
+
+However:
+
+High R² is expected in short-term power system forecasting because:
+
+Electricity demand is highly autocorrelated.
+
+Lag features (especially 1h, 24h) are extremely predictive.
+
+Daily and weekly seasonality is very structured.
+
+⚠️ Important: High R² alone does NOT mean operationally perfect.
+
+#2️⃣ MAE = 408 MW → Practical Error Interpretation
+
+Mean Absolute Error = average absolute forecast error.
+
+Now let's contextualize:
+
+GB total generation typically ranges:
+
+Night low: ~20,000 MW
+
+Peak winter: ~45,000–50,000 MW
+
+So 408 MW error relative to:
+
+30,000 MW average load →
+408 / 30,000 ≈ 1.36% error
+
+That is very good for day-ahead forecasting.
+
+In power system planning:
+
+<2% MAE → strong 2–4% → acceptable 5% → operational concern
+
+Your model ≈ ~1–1.5% average deviation
+
+✅ Operationally strong.
 
 
+# 3️⃣ RMSE = 543 MW → Sensitivity to Spikes
+
+# RMSE penalizes larger errors more than MAE.
+
+Your RMSE (543 MW) > MAE (408 MW), which means:
+
+There are some larger occasional errors, likely during:
+
+# Sudden wind ramps
+
+# Evening demand ramps
+
+# Extreme weather days
+
+# Low solar winter periods
+
+Difference:
+
+543 − 408 = 135 MW
+
+This gap is moderate → not extreme. If RMSE were much larger than MAE, we would suspect:
+Severe spike failures
+
+Storm ramp errors
+
+Rare high-magnitude misses
+
+But your model looks stable.
+
+# Bias = +15.7 MW
+
+# Interpretation:
+
+On average, the model overpredicts generation by 15.7 MW.
+
+Relative to total generation (~30,000–40,000 MW), this is extremely small.
+
+
+
+# **Source-level contribution forecasting (to help NESO plan for renewable penetration, fossil fallback, and imports).**
+
+# System-level operational forecasting
+
+Build a Source-Level Contribution Forecasting Pipeline to predict:
+
+Wind generation
+
+Solar generation
+
+Fossil fallback (gas/coal)
+
+Imports
+
+Renewable penetration (%)
+
+Fossil penetration (%)
+
+For day-ahead planning.
+
+# STEP 1 — Define Targets
+# STEP 2 — Feature Engineering (Source-Aware)
+We create lags per source. Because each source has different behavior:
+
+Wind → stochastic, autocorrelated
+
+Solar → strong diurnal pattern
+
+Fossil → residual balancing
+
+Imports → interconnector-driven
+
+# Step 3 - Lag Engineering (Half-hour data)
+# Step 4 - Rolling Means (shifted)
+# Step 5 - Add Time Features
+
+
+# Multi-Model Forecasting
+
+<img width="1220" height="472" alt="download" src="https://github.com/user-attachments/assets/60ed01b0-ffea-4e4b-984e-751c28dcd3c4" />
+<img width="1233" height="472" alt="download" src="https://github.com/user-attachments/assets/b96ae16c-1b3b-4522-8748-9fcb5bf9ec20" />
+<img width="1220" height="472" alt="download" src="https://github.com/user-attachments/assets/86de1cab-9c98-4386-a6fe-e12b7d2a7be8" />
+<img width="1233" height="472" alt="download" src="https://github.com/user-attachments/assets/847ea9ba-4b73-4806-aceb-8bd31d7b3795" />
+<img width="1220" height="472" alt="download" src="https://github.com/user-attachments/assets/5e2cce83-d664-41a9-b4e4-9dfae204f0d4" />
+
+<img width="1233" height="472" alt="download" src="https://github.com/user-attachments/assets/e4c00005-4dfe-4ea5-9acb-0cf2b51d4d6b" />
+<img width="1233" height="472" alt="download" src="https://github.com/user-attachments/assets/d4770bff-1f86-4a32-9212-705527bc089b" />
+<img width="1220" height="472" alt="download" src="https://github.com/user-attachments/assets/97cd9cbe-f69c-4cc2-99bb-4300ef59ee42" />
+
+#--- WIND Analysis ---
+MAE: 242.96 MW
+RMSE: 464.16 MW
+R²: 0.9885
+Forecast Bias: -149.17 MW
+
+#--- SOLAR Analysis ---
+MAE: 46.78 MW
+RMSE: 257.35 MW
+R²: 0.9906
+Forecast Bias: -29.13 MW
+
+#--- FOSSIL Analysis ---
+MAE: 156.06 MW
+RMSE: 224.23 MW
+R²: 0.9986
+Forecast Bias: 36.46 MW
+
+#--- IMPORTS Analysis ---
+MAE: 342.86 MW
+RMSE: 649.39 MW
+R²: 0.9072
+Forecast Bias: -304.79 MW
+
+1. WIND
+
+MAE: 242.96 MW, RMSE: 464.16 MW, R²: 0.9885
+
+The MAE and RMSE are reasonably close, indicating the model’s errors are not dominated by extreme outliers.
+
+R² of 0.9885 shows the model explains ~99% of the variance, which is excellent.
+
+Forecast Bias: -149.17 MW
+
+Negative bias → the model tends to underpredict wind generation on average.
+
+Considering wind’s max can reach ~18,382 MW (from your earlier stats), this bias is moderate but worth noting for operational planning.
+
+Interpretation: High R² and moderate bias indicate good overall predictive performance, but NESO should be cautious about slight underestimation during high wind periods.
+
+2. SOLAR
+
+MAE: 46.78 MW, RMSE: 257.35 MW, R²: 0.9906
+
+MAE is very low, indicating precise short-term forecasts on average.
+
+RMSE is higher due to occasional peaks (solar peaks are sparse but extreme).
+
+R² is excellent at 0.9906 → almost all variance captured.
+
+Forecast Bias: -29.13 MW
+
+Slight underprediction, which is very minor relative to solar’s max (~14,035 MW).
+
+Interpretation: Highly reliable forecasts for day-ahead solar planning; minimal risk of systematic errors.
+
+3. FOSSIL
+
+MAE: 156.06 MW, RMSE: 224.23 MW, R²: 0.9986
+
+Very low MAE and RMSE relative to average fossil generation (~17,507 MW), showing excellent model accuracy.
+
+R² near 0.999 → model captures almost all variability.
+
+Forecast Bias: 36.46 MW
+
+Slight overprediction, very minor relative to total fossil output.
+
+Interpretation: Fossil forecasts are highly dependable, providing NESO confidence in fallback and balancing strategies.
+
+4. IMPORTS
+
+MAE: 342.86 MW, RMSE: 649.39 MW, R²: 0.9072
+
+Higher MAE and RMSE relative to other sources; imports are more volatile and less predictable.
+
+R² of 0.9072 → model captures most, but not all, variability; some unexpected swings occur.
+
+Forecast Bias: -304.79 MW
+
+Negative bias → model tends to underpredict imports, which is critical as underestimation could lead to insufficient supply planning.
+
+Interpretation: NESO should be cautious; import forecasts are less reliable, and contingency plans may be required.
