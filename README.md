@@ -1,4 +1,4 @@
-# A.I.-Forecasting-Modelling-with-Great-Britain-s-System-Operator-Generation-Outputs-NESO-Data-Portal-
+# A.I. FORECASTING-MODELLING WITH GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS NESO DATA PORTAL
 <img width="1024" height="1024" alt="Gemini_Generated_Image_i8d37si8d37si8d3" src="https://github.com/user-attachments/assets/727cfe2c-433a-4c44-9ece-2c5427347219" />
 
 This study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
