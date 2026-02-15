@@ -18,7 +18,8 @@ The UK electricity system has undergone significant transformation due to increa
 - Renewable integration planning
 
 - Carbon reduction strategy
-1.2 Objective
+
+# Objective
 
 The objective of this study is to:
 
@@ -456,3 +457,26 @@ Forecast Bias: -304.79 MW
 Negative bias → model tends to underpredict imports, which is critical as underestimation could lead to insufficient supply planning.
 
 Interpretation: NESO should be cautious; import forecasts are less reliable, and contingency plans may be required.
+
+# CONCLUSION 
+
+# This study Conducted structured exploratory data analysis of UK electricity generation
+
+- Engineered temporal and autoregressive features
+
+- Developed an XGBoost forecasting benchmark
+
+- Evaluated predictive performance rigorously
+
+- Extracted operational and system-level insights
+
+# The results confirm that UK electricity generation is:
+
+- Highly cyclical
+
+- Strongly autoregressive
+
+- Increasingly influenced by renewable variability
+
+- The XGBoost model serves as a robust benchmark for subsequent deep learning models.
+
