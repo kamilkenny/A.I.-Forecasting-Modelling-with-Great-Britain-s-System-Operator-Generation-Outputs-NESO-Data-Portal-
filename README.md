@@ -191,7 +191,8 @@ Carbon intensity indicators
 <img width="1589" height="1189" alt="download" src="https://github.com/user-attachments/assets/5a61e3b7-74a0-46b5-bcd2-113eb45b80d8" />
 
 # FEATURES ENGINEERING
-<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/2af5dbef-18a6-4b8a-95da-d2f20f6fbf3c" />
+<img width="618" height="715" alt="ChatGPT Image Feb 15, 2026, 02_21_05 PM" src="https://github.com/user-attachments/assets/b99ea926-ebb0-4436-b302-35b713faa554" />
+
 
 
 More Time-Based Features
