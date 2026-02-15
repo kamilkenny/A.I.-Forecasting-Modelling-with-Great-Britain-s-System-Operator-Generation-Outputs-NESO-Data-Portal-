@@ -3,7 +3,7 @@
 
 This study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data SOurce - Historic GB Generation Mix
-Historic GB generation mix from the 1st of Jan 2009 through to today. Data points are either MW 
+Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW 
 https://www.neso.energy/data-portal/historic-generation-mix/historic_gb_generation_mix
 
 # Introduction
