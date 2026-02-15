@@ -230,9 +230,10 @@ is_weekend (True/False)
 # DAY-AHEAD (SHORT-TERM) TOTAL GENERATION FORECASTING USING XGBOOST
 
 # Modeling 
+<img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/1316fbb9-642f-47ce-9667-b8b3d0153e1d" />
 
             
-<img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/ae8211bc-73a5-41c1-a2d2-6b0a19441913" />
+
 
 
 
