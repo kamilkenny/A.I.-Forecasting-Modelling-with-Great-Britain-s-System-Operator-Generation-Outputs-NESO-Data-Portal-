@@ -54,11 +54,16 @@ Biomass
 Imports
 
 Storage
-<img width="1333" height="547" alt="download" src="https://github.com/user-attachments/assets/212a9971-1988-4c49-86ab-9e7af6d7f383" />
+<img width="1333" height="549" alt="download" src="https://github.com/user-attachments/assets/66a1fc52-c4a9-49bc-b511-c1d77be221c9" />
+
+
 <img width="1466" height="645" alt="download (1)" src="https://github.com/user-attachments/assets/cd211654-f94f-4a99-b352-5b9ba5a6f610" />
 <img width="1333" height="547" alt="download" src="https://github.com/user-attachments/assets/fbd843a9-74bb-44e1-9646-5defdfe3d286" />
 <img width="1315" height="547" alt="download" src="https://github.com/user-attachments/assets/b0e75d0e-ef59-4b56-bb6c-423fc25093a1" />
 <img width="1023" height="551" alt="download" src="https://github.com/user-attachments/assets/f4c7d6e2-09f8-4412-a486-ace0c9685958" />
+<img width="1298" height="547" alt="download" src="https://github.com/user-attachments/assets/21bca1dc-b1c7-4bda-a5b6-c0b3f93b5e30" />
+
+
 # Exploratory Data Analysis (EDA) – UK Electricity Generation Dataset
 # 1. Dataset Overview
 Data Source: NESO Data Bank
@@ -168,13 +173,13 @@ Carbon intensity follows fossil generation trends and is mitigated by renewable 
 Imports occasionally supplement local generation, impacting carbon intensity and generation mix.
 
 Hourly and seasonal patterns highlight variability in demand and renewable output.
-
+Carbon intensity indicators
 
 # Contribution of Renewable Energy Sources as Compared to Fossil Fuels
 <img width="1306" height="509" alt="download" src="https://github.com/user-attachments/assets/49829427-6b6a-4264-b6fe-0412667fa39b" />
 
+# Generation: Seasonal Decomposition
+<img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/2e97837f-4c0a-4b5b-a8e4-bed6db57694b" />
 
 
-
-Carbon intensity indicators
 
