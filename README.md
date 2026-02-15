@@ -190,6 +190,7 @@ Carbon intensity indicators
 <img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/5755fd0f-78ab-4745-850c-7bcc391980aa" />
 <img width="1590" height="1189" alt="download" src="https://github.com/user-attachments/assets/d86a7196-db93-40f5-be2d-3d3714e76f4b" />
 <img width="1589" height="1189" alt="download" src="https://github.com/user-attachments/assets/5a61e3b7-74a0-46b5-bcd2-113eb45b80d8" />
+
 # WIND VS PHOTOVOLTAIC UPTAKE COMPARISON 
 <img width="1084" height="525" alt="newplot (14)" src="https://github.com/user-attachments/assets/0d2a621a-dd26-493d-b18c-960763889675" />
 
