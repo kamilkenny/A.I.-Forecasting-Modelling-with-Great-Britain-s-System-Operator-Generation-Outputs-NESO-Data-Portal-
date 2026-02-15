@@ -68,7 +68,7 @@ Storage
 <img width="1298" height="547" alt="download" src="https://github.com/user-attachments/assets/21bca1dc-b1c7-4bda-a5b6-c0b3f93b5e30" />
 
 
-# Exploratory Data Analysis (EDA) – UK Electricity Generation Dataset
+# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION DATASET
 # 1. Dataset Overview
 Data Source: NESO Data Bank
 Time Period: 2009-01-01 to 2026-02-14 (half-hourly intervals)
@@ -222,7 +222,8 @@ GAS_ratio, COAL_ratio, WIND_ratio, SOLAR_ratio
 # Weekday/weekend indicator:
 is_weekend (True/False)
 
-Day-ahead (short-term) total generation forecasting using XGBoost
+# DAY-AHEAD (SHORT-TERM) TOTAL GENERATION FORECASTING USING XGBOOST
+
 <img width="1023" height="470" alt="download" src="https://github.com/user-attachments/assets/bb0e775e-cf66-4ed2-9079-17ddb14df701" />
 <img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/fb1c815f-399d-4f4e-8581-8256fa1663d2" />
 <img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/c0436351-75a1-4823-9803-a4d8584da161" />
@@ -319,7 +320,7 @@ Relative to total generation (~30,000–40,000 MW), this is extremely small.
 
 
 
-# **Source-level contribution forecasting (to help NESO plan for renewable penetration, fossil fallback, and imports).**
+# **SOURCE-LEVEL CONTRIBUTION FORECASTING (TO HELP NESO PLAN FOR RENEWABLE PENETRATION, FOSSIL FALLBACK, AND IMPORTS)**
 
 # System-level operational forecasting
 
