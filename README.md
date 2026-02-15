@@ -492,3 +492,6 @@ Interpretation: NESO should be cautious; import forecasts are less reliable, and
 - Increasingly influenced by renewable variability
 
 - The XGBoost model serves as a robust benchmark for subsequent deep learning models.
+
+
+# KAMIL, RIDWAN KEHINDE 
