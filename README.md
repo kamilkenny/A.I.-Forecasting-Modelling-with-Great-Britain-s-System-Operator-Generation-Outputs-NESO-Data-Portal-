@@ -336,6 +336,9 @@ Relative to total generation (~30,000–40,000 MW), this is extremely small.
 
 # **SOURCE-LEVEL CONTRIBUTION FORECASTING (TO HELP NESO PLAN FOR RENEWABLE PENETRATION, FOSSIL FALLBACK, AND IMPORTS)**
 
+<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 02_38_21 PM" src="https://github.com/user-attachments/assets/6bce2207-3a95-4562-b3a6-5392e97f091f" />
+
+
 # System-level operational forecasting
 
 Build a Source-Level Contribution Forecasting Pipeline to predict:
