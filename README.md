@@ -229,8 +229,8 @@ is_weekend (True/False)
 
 # DAY-AHEAD (SHORT-TERM) TOTAL GENERATION FORECASTING USING XGBOOST
 
-# Modeling 
-<img width="655" height="599" alt="ChatGPT Image Feb 15, 2026, 02_03_37 AM" src="https://github.com/user-attachments/assets/1316fbb9-642f-47ce-9667-b8b3d0153e1d" />
+
+<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 02_38_21 PM" src="https://github.com/user-attachments/assets/5e29137f-6328-42f8-b34d-651e58323dae" />
 
             
 
@@ -386,31 +386,31 @@ Imports → interconnector-driven
 <img width="1233" height="472" alt="download" src="https://github.com/user-attachments/assets/d4770bff-1f86-4a32-9212-705527bc089b" />
 <img width="1220" height="472" alt="download" src="https://github.com/user-attachments/assets/97cd9cbe-f69c-4cc2-99bb-4300ef59ee42" />
 
-#--- WIND Analysis ---
+# --- WIND Analysis ---
 MAE: 242.96 MW
 RMSE: 464.16 MW
 R²: 0.9885
 Forecast Bias: -149.17 MW
 
-#--- SOLAR Analysis ---
+# --- SOLAR Analysis ---
 MAE: 46.78 MW
 RMSE: 257.35 MW
 R²: 0.9906
 Forecast Bias: -29.13 MW
 
-#--- FOSSIL Analysis ---
+# --- FOSSIL Analysis ---
 MAE: 156.06 MW
 RMSE: 224.23 MW
 R²: 0.9986
 Forecast Bias: 36.46 MW
 
-#--- IMPORTS Analysis ---
+# --- IMPORTS Analysis ---
 MAE: 342.86 MW
 RMSE: 649.39 MW
 R²: 0.9072
 Forecast Bias: -304.79 MW
 
-1. WIND
+# 1. WIND
 
 MAE: 242.96 MW, RMSE: 464.16 MW, R²: 0.9885
 
@@ -426,7 +426,7 @@ Considering wind’s max can reach ~18,382 MW (from your earlier stats), this bi
 
 Interpretation: High R² and moderate bias indicate good overall predictive performance, but NESO should be cautious about slight underestimation during high wind periods.
 
-2. SOLAR
+# 2. SOLAR
 
 MAE: 46.78 MW, RMSE: 257.35 MW, R²: 0.9906
 
@@ -442,7 +442,7 @@ Slight underprediction, which is very minor relative to solar’s max (~14,035 M
 
 Interpretation: Highly reliable forecasts for day-ahead solar planning; minimal risk of systematic errors.
 
-3. FOSSIL
+# 3. FOSSIL
 
 MAE: 156.06 MW, RMSE: 224.23 MW, R²: 0.9986
 
@@ -456,7 +456,7 @@ Slight overprediction, very minor relative to total fossil output.
 
 Interpretation: Fossil forecasts are highly dependable, providing NESO confidence in fallback and balancing strategies.
 
-4. IMPORTS
+# 4. IMPORTS
 
 MAE: 342.86 MW, RMSE: 649.39 MW, R²: 0.9072
 
@@ -491,4 +491,3 @@ Interpretation: NESO should be cautious; import forecasts are less reliable, and
 - Increasingly influenced by renewable variability
 
 - The XGBoost model serves as a robust benchmark for subsequent deep learning models.
-
