@@ -248,7 +248,7 @@ Daily and weekly seasonality is very structured.
 
 ⚠️ Important: High R² alone does NOT mean operationally perfect.
 
-#2️⃣ MAE = 408 MW → Practical Error Interpretation
+# 2️⃣ MAE = 408 MW → Practical Error Interpretation
 
 Mean Absolute Error = average absolute forecast error.
 
