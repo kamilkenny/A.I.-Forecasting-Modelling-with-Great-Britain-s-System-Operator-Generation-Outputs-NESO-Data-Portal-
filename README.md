@@ -3,7 +3,16 @@
 <img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 01_51_44 AM" src="https://github.com/user-attachments/assets/01db605c-2084-4b15-9b66-b8f0709966de" />
 
 # The Model has been deployed on this web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/
+## 📖 Project Overview
+The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
+This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
+
+### Key Objectives:
+* **Grid Balancing:** Predict supply requirements to maintain frequency stability.
+* **Renewable Integration:** Optimize the dispatch of zero-carbon sources.
+* **Operational Efficiency:** Reduce reliance on expensive, high-carbon reserve plants.
+  
 This study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data Source - Historic GB Generation Mix
 Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
@@ -22,7 +31,7 @@ The UK electricity system has undergone significant transformation due to increa
 
 - Carbon reduction strategy
 
-# Objective
+# Project Objective
 
 The objective of this study is to:
 
