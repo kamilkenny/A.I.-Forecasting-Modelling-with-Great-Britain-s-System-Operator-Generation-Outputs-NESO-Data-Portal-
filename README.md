@@ -3,7 +3,7 @@
 <img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 01_51_44 AM" src="https://github.com/user-attachments/assets/01db605c-2084-4b15-9b66-b8f0709966de" />
 
 # The Model has been deployed on this web-link:https://deployment-of-uk-electricity-generation.onrender.com/
-The deployed web-based-app can perform inferencing also Hindcasting of past times steps and forecasting future time steps of generation output.
+The deployed web-based-app can perform inferencing also known as HINDCASTING of past times steps to estimate the residual error and FORECASTING future time steps of generation output.
 ## 📖 Project Overview
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
