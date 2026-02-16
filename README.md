@@ -1,7 +1,7 @@
 # A.I. FORECASTING-MODELLING WITH GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS NESO DATA PORTAL
 <img width="1024" height="1024" alt="Gemini_Generated_Image_i8d37si8d37si8d3" src="https://github.com/user-attachments/assets/727cfe2c-433a-4c44-9ece-2c5427347219" />
 <img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 01_51_44 AM" src="https://github.com/user-attachments/assets/01db605c-2084-4b15-9b66-b8f0709966de" />
-
+# The Model has been deployed on this web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/
 This study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data Source - Historic GB Generation Mix
 Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
@@ -486,6 +486,8 @@ Interpretation: NESO should be cautious; import forecasts are less reliable, and
 - Evaluated predictive performance rigorously
 
 - Extracted operational and system-level insights
+
+- The model has been deployed on the web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/
 
 # The results confirm that UK electricity generation is:
 
