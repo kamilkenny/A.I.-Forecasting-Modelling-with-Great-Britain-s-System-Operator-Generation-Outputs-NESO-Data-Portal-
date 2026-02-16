@@ -2,7 +2,7 @@
 <img width="1024" height="1024" alt="Gemini_Generated_Image_i8d37si8d37si8d3" src="https://github.com/user-attachments/assets/727cfe2c-433a-4c44-9ece-2c5427347219" />
 <img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 01_51_44 AM" src="https://github.com/user-attachments/assets/01db605c-2084-4b15-9b66-b8f0709966de" />
 
-# The Model has been deployed on this web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/
+# The Model has been deployed on this web-link:https://deployment-of-uk-electricity-generation.onrender.com/
 ## 📖 Project Overview
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
