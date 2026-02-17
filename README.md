@@ -1,7 +1,7 @@
 
 
 # A.I. FORECASTING-MODELLING WITH GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID DECARBONIZATION STRATEGIES
-![grid](https://github.com/user-attachments/assets/294e39a5-84e5-4750-98d0-a16718d12741)
+
 ![Kamil_Profile](https://github.com/user-attachments/assets/ce877384-ae2c-4bac-8f2c-0efa08508ea7)
 
 
