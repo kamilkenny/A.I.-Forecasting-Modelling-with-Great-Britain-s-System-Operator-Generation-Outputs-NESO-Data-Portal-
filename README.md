@@ -489,6 +489,24 @@ Negative bias → model tends to underpredict imports, which is critical as unde
 
 Interpretation: NESO should be cautious; import forecasts are less reliable, and contingency plans may be required.
 
+# COMPARATIVE EVALUATION: MULTIVARIATE VS UNIVARIATE LONG SHORT-TERM MEMORY (LSTM) FOR GRID GENERATION FORECASTING
+UNIVARIATE LSTM: Relies solely on the lookback window (Last 24 hours). 
+
+MULTIVARIATE LSTM: Incorporates SINE/COSINE CYCLICAL FEATURES.
+
+# Univariate LSTM - Full Evaluation Profile:
+R² Score : 0.9918
+MAE      : 426.86 MW
+RMSE     : 560.71 MW
+Bias     : 183.31 MW
+The Good: High Precision ($R^2$ and MAE)An $R^2$ of 0.9918 is world-class. It indicates that your LSTM has captured almost all the variance in the NESO generation data.Your MAE (426.86 MW) represents an error of only about 1.1% relative to the average grid load.The gap between MAE and RMSE (560.71 MW) is relatively small, which means the model isn't frequently making "huge" mistakes; the errors are fairly consistent.2. The Concern: Positive Bias (183.31 MW)A bias of +183.31 MW means that, on average, your model is over-predicting the actual generation.In a grid-balancing context, this is a "safe" error (predicting more supply than exists is better than predicting less), but it suggests a systematic drift.This could be caused by the model struggling with the "ramp-down" periods at night, where it expects demand to stay slightly higher than it actually does.
+
+Actual Min/Max: 18432 / 53867 MW
+Predicted Min/Max: 14865 / 53119 MW
+<img width="1589" height="990" alt="download" src="https://github.com/user-attachments/assets/a9ef66cf-d61b-4232-8f7e-2f51020966a8" />
+<img width="1589" height="990" alt="download" src="https://github.com/user-attachments/assets/80b11ffd-9a36-4fc8-a9c6-7bd00ab855c2" />
+
+
 # CONCLUSION 
 
 # This study Conducted structured exploratory data analysis of UK electricity generation
