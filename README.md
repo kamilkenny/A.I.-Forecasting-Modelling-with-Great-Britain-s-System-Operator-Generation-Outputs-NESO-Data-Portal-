@@ -532,7 +532,8 @@ Predicted Min/Max: 14865 / 53119 MW
 
 - Increasingly influenced by renewable variability
 
-- The XGBoost model serves as a robust benchmark for subsequent deep learning models.
+- The XGBoost and LSTM modelS serves as a robust benchmark for subsequent deep learning models.
+![grid](https://github.com/user-attachments/assets/33ebada4-335f-4980-8dba-5f8877019e59)
 
 
 # KAMIL, RIDWAN KEHINDE 
