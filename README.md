@@ -16,7 +16,7 @@ The deployed web-based-app can perform inferencing also known as HINDCASTING of 
 * **Renewable Integration:** Optimize the dispatch of zero-carbon sources.
 * **Operational Efficiency:** Reduce reliance on expensive, high-carbon reserve plants.
   
-This study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
+This case study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data Source - Historic GB Generation Mix
 Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
 
