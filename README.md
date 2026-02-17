@@ -2,7 +2,8 @@
 
 # A.I. FORECASTING-MODELLING WITH GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID DECARBONIZATION STRATEGIES
 
-![Kamil_Profile](https://github.com/user-attachments/assets/ce877384-ae2c-4bac-8f2c-0efa08508ea7)
+<img width="1536" height="1024" alt="ChatGPT Image Feb 17, 2026, 10_29_43 PM" src="https://github.com/user-attachments/assets/e1fddc9c-11f8-4ece-98ba-563928118f0c" />
+
 
 
 
