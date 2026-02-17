@@ -2,7 +2,10 @@
 
 # A.I. FORECASTING-MODELLING WITH GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID DECARBONIZATION STRATEGIES
 ![grid](https://github.com/user-attachments/assets/294e39a5-84e5-4750-98d0-a16718d12741)
-<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 01_51_44 AM" src="https://github.com/user-attachments/assets/01db605c-2084-4b15-9b66-b8f0709966de" />
+![Kamil_Profile](https://github.com/user-attachments/assets/ce877384-ae2c-4bac-8f2c-0efa08508ea7)
+
+
+
 ## 📖 Project Overview
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
