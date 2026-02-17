@@ -516,7 +516,7 @@ Predicted Min/Max: 14865 / 53119 MW
 
 - Engineered temporal and autoregressive features
 
-- Developed an XGBoost forecasting benchmark
+- Developed an XGBoost, LSTM and Informer Attention Mechanism Model for forecasting benchmark
 
 - Evaluated predictive performance rigorously
 
@@ -532,7 +532,6 @@ Predicted Min/Max: 14865 / 53119 MW
 
 - Increasingly influenced by renewable variability
 
-- The XGBoost and LSTM modelS serves as a robust benchmark for subsequent deep learning models.
 ![grid](https://github.com/user-attachments/assets/33ebada4-335f-4980-8dba-5f8877019e59)
 
 
