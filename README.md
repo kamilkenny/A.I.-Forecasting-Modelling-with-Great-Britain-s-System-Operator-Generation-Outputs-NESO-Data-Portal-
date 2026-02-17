@@ -504,7 +504,7 @@ The Good: High Precision ($R^2$ and MAE)An $R^2$ of 0.9918 is world-class. It in
 Actual Min/Max: 18432 / 53867 MW
 Predicted Min/Max: 14865 / 53119 MW
 <img width="1589" height="990" alt="download" src="https://github.com/user-attachments/assets/a9ef66cf-d61b-4232-8f7e-2f51020966a8" />
-<img width="1589" height="990" alt="download" src="https://github.com/user-attachments/assets/80b11ffd-9a36-4fc8-a9c6-7bd00ab855c2" />
+
 
 
 # CONCLUSION 
