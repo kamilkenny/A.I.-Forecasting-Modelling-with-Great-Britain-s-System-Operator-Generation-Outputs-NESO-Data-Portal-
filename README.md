@@ -15,7 +15,7 @@ This project utilizes a **Multivariate Time-Series approach** to predict Total E
 # The Develope Forecasting Model has been deployed on this Streamlit web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/ 
 
 # or/and Render web-link:https://deployment-of-uk-electricity-generation.onrender.com/
-The deployed web-based-app can perform **offline-inferencing also known as HINDCASTING** of past times steps to estimate the residual errors of the model and **FORECASTING** future time steps of generation output.
+The deployed web-based-app can perform **Offline-Inferencing** also known as **HINDCASTING** of past times steps to estimate the residual errors of the model and **FORECASTING** future time steps of generation output.
 
 ### Key Objectives:
 * **Grid Balancing:** Predict supply requirements to maintain frequency stability.
