@@ -505,10 +505,20 @@ R² Score : 0.9918
 MAE      : 426.86 MW
 RMSE     : 560.71 MW
 Bias     : 183.31 MW
-The Good: High Precision ($R^2$ and MAE)An $R^2$ of 0.9918 is world-class. It indicates that your LSTM has captured almost all the variance in the NESO generation data.Your MAE (426.86 MW) represents an error of only about 1.1% relative to the average grid load.The gap between MAE and RMSE (560.71 MW) is relatively small, which means the model isn't frequently making "huge" mistakes; the errors are fairly consistent.2. The Concern: Positive Bias (183.31 MW)A bias of +183.31 MW means that, on average, your model is over-predicting the actual generation.In a grid-balancing context, this is a "safe" error (predicting more supply than exists is better than predicting less), but it suggests a systematic drift.This could be caused by the model struggling with the "ramp-down" periods at night, where it expects demand to stay slightly higher than it actually does.
+# Performance Summary:
+The current LSTM model demonstrates exceptional predictive accuracy for NESO generation data, effectively capturing nearly all grid variance.
+**Key Performance Indicators:**
+**Precision and Variance:** The model achieved an $R^{2}$ of 0.9918, indicating it accounts for over 99% of the observed variance in generation.
+**Error Margins:** The Mean Absolute Error (MAE) of 426.86 MW represents a marginal error of approximately 1.1% relative to the average grid load.
+**Consistency:** The relatively narrow gap between the MAE and the Root Mean Square Error (RMSE) of 560.71 MW confirms that the model is consistent and not prone to significant outliers or "large-scale" miscalculations.
+# Observations and Areas for Calibration
+While the overall precision is world-class, the model currently exhibits a positive bias of +183.31 MW.
+**Systematic Over-Prediction:** On average, the model predicts slightly more supply than is actually present.
+**Probable Cause:** This drift likely occurs during nocturnal "ramp-down" periods, where the model may expect demand to remain higher than the actual recorded drop-off.
+**Operational Impact:** In a grid-balancing context, over-predicting supply is generally considered a "safe" error. However, further refinement of the lag features or rolling averages during off-peak transitions could reduce this systematic bias.
 
-Actual Min/Max: 18432 / 53867 MW
-Predicted Min/Max: 14865 / 53119 MW
+**Actual Min/Max: 18432 / 53867 MW**
+**Predicted Min/Max: 14865 / 53119 MW**
 <img width="1589" height="990" alt="download" src="https://github.com/user-attachments/assets/a9ef66cf-d61b-4232-8f7e-2f51020966a8" />
 
 
