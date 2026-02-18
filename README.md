@@ -10,12 +10,12 @@
 ## 📖 Project Overview
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
-This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
+This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
 
 # The Develope Forecasting Model has been deployed on this Streamlit web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/ 
 
 # or/and Render web-link:https://deployment-of-uk-electricity-generation.onrender.com/
-The deployed web-based-app can perform offline-inferencing also known as HINDCASTING of past times steps to estimate the residual errors of the model and FORECASTING future time steps of generation output.
+The deployed web-based-app can perform **offline-inferencing also known as HINDCASTING** of past times steps to estimate the residual errors of the model and **FORECASTING** future time steps of generation output.
 
 ### Key Objectives:
 * **Grid Balancing:** Predict supply requirements to maintain frequency stability.
@@ -32,13 +32,13 @@ Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time).
 
 The UK electricity system has undergone significant transformation due to increasing renewable penetration, declining coal usage, and evolving demand patterns. Accurate short-term electricity generation forecasting is critical for:
 
-- Grid stability
+**- Grid stability**
 
-- Energy market operations
+**- Energy market operations**
 
-- Renewable integration planning
+**- Renewable integration planning**
 
-- Carbon reduction strategy
+**- Carbon reduction strategy**
 
 # Project Objective
 
@@ -61,25 +61,25 @@ The dataset consists of time-indexed UK electricity generation values at hourly 
 
 Key Variables Include:
 
-Total Generation (MW) — Target variable
+**Total Generation (MW) — Target variable**
 
-Gas
+**Gas**
 
-Coal
+**Coal**
 
-Nuclear
+**Nuclear**
 
-Wind
+**Wind**
 
-Solar
+**Solar**
 
-Hydro
+**Hydro**
 
-Biomass
+**Biomass**
 
-Imports
+**Imports**
 
-Storage
+**Storage**
 <img width="1333" height="549" alt="download" src="https://github.com/user-attachments/assets/66a1fc52-c4a9-49bc-b511-c1d77be221c9" />
 
 
@@ -114,7 +114,7 @@ Missing Values: None; dataset is complete with all 300,170 entries.
 
 Data Types: 18 integer columns, 15 float columns (percentages).
 
-Initial Observations:
+**Initial Observations:**
 
 Fossil fuels (GAS + COAL) dominate generation.
 
@@ -125,7 +125,7 @@ Imports vary and occasionally contribute significantly to total generation.
 Carbon intensity fluctuates with the share of fossil fuels.
 
 # 3. Descriptive Statistics
-Generation (MW) Summary:
+**Generation (MW) Summary:**
 GAS: Mean ≈ 12,029 MW; max ≈ 27,868 MW
 
 COAL: Mean ≈ 5,511 MW; max ≈ 26,044 MW
@@ -151,7 +151,7 @@ Low Carbon: Mean ≈ 41.8%
 Zero Carbon: Mean ≈ 43.1%
 
 # 4. Initial Visualization Insights A. Source Contribution Over Time
-Line plots of monthly averages by source reveal:
+**A. Line plots of monthly averages by source reveal:**
 
 Coal share declining over the years.
 
@@ -161,19 +161,19 @@ Wind and Solar gradually increasing.
 
 Imports vary seasonally, peaking during high-demand periods.
 
-B. Renewable vs Fossil Share
+**B. Renewable vs Fossil Share**
 Renewable percentage is increasing over time, while fossil share declines.
 
 Carbon intensity closely follows fossil share – higher fossil usage → higher carbon intensity.
 
-C. Carbon Intensity Relationship
+**C. Carbon Intensity Relationship**
 Scatter plots and hexbin plots show:
 
 Positive correlation between fossil share and carbon intensity.
 
 High renewable penetration correlates with lower carbon intensity.
 
-D. Seasonal & Hourly Patterns
+**D. Seasonal & Hourly Patterns**
 Heatmaps of hourly vs monthly average generation:
 
 Peak generation hours are generally morning and early evening.
@@ -182,7 +182,7 @@ Winter months have higher overall demand.
 
 Solar contribution is strictly daytime; wind and hydro show variable seasonal patterns.
 
-E. Density Analysis
+**E. Density Analysis**
 KDE plots show carbon intensity distribution:
 
 Peaks around 250–500 gCO₂/kWh (low fossil share periods).
@@ -190,15 +190,15 @@ Peaks around 250–500 gCO₂/kWh (low fossil share periods).
 Long tail for higher intensity during fossil-heavy periods.
 
 # 5. Observed Trends
-Fossil fuels dominate but are slowly declining.
+**Fossil fuels dominate but are slowly declining.**
 
-Renewables (wind, solar, hydro, biomass) are gradually increasing.
+**Renewables (wind, solar, hydro, biomass) are gradually increasing.**
 
-Carbon intensity follows fossil generation trends and is mitigated by renewable uptake.
+**Carbon intensity follows fossil generation trends and is mitigated by renewable uptake.**
 
-Imports occasionally supplement local generation, impacting carbon intensity and generation mix.
+**Imports occasionally supplement local generation, impacting carbon intensity and generation mix.**
 
-Hourly and seasonal patterns highlight variability in demand and renewable output.
+**Hourly and seasonal patterns highlight variability in demand and renewable output.**
 Carbon intensity indicators
 
 # Contribution of Renewable Energy Sources as Compared to Fossil Fuels
@@ -219,7 +219,7 @@ Carbon intensity indicators
 
 
 
-More Time-Based Features
+# More Time-Based Features
 I want the model to capture daily, weekly, and yearly patterns:
 
 # Original generation sources
@@ -515,25 +515,25 @@ Predicted Min/Max: 14865 / 53119 MW
 
 # CONCLUSION 
 
-# This study Conducted structured exploratory data analysis of UK electricity generation
+**- This study Conducted structured exploratory data analysis of UK electricity generation**
 
-- Engineered temporal and autoregressive features
+**- Engineered temporal and autoregressive features**
 
-- Developed an XGBoost, LSTM and Informer Attention Mechanism Model for forecasting benchmark
+**- Developed an XGBoost, LSTM and Informer Attention Mechanism Model for forecasting benchmark**
 
-- Evaluated predictive performance rigorously
+**- Evaluated predictive performance rigorously**
 
-- Extracted operational and system-level insights
+**- Extracted operational and system-level insights**
 
-- The model has been deployed on the web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/
+**- The model has been deployed on the web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/**
 
 # The results confirm that UK electricity generation is:
 
-- Highly cyclical
+**- Highly cyclical**
 
-- Strongly autoregressive
+**- Strongly autoregressive**
 
-- Increasingly influenced by renewable variability
+**- Increasingly influenced by renewable variability**
 
 ![grid](https://github.com/user-attachments/assets/33ebada4-335f-4980-8dba-5f8877019e59)
 
