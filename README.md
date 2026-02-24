@@ -2,9 +2,8 @@
 
 # AI-DRIVEN FORECASTING AND MODELLING OF GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID PLANNING AND DECARBONISATION PATHWAYS
 
+<img width="1536" height="1024" alt="ChatGPT Image Feb 18, 2026, 06_41_12 PM" src="https://github.com/user-attachments/assets/98304a11-a2e9-4655-9775-29c51f486ef0" />
 
-
-[NESO (2).pdf](https://github.com/user-attachments/files/25503408/NESO.2.pdf)
 
 
 ## 📖PROJECT OVERVIEW
@@ -28,7 +27,7 @@ Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time).
 
 # The Design and Development was done in Python and uploaded as a file in this respository 
 
-# TNTRODUCTION
+# INTRODUCTION
 
 The UK electricity system has undergone significant transformation due to increasing renewable penetration, declining coal usage, and evolving demand patterns. Accurate short-term electricity generation forecasting is critical for:
 
@@ -55,8 +54,8 @@ Evaluate forecasting performance using standard regression metrics.
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 
 # UK ELECTRICITY GENERATION & DECARBONISATION DASHBOARD (2020-2025 DATASET)
-![NESO (2)_page-0001](https://github.com/user-attachments/assets/d2210bdc-1d70-4ff8-813a-30ab24ef957b)
 
+![NESO (2)_page-0001](https://github.com/user-attachments/assets/e9f4fc08-9011-4d50-ab91-4902a827f15a)
 
 
 An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the period 2024–2025 using half-hourly system data. The objective of the study was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
