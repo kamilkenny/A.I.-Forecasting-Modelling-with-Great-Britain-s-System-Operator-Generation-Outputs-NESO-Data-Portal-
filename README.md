@@ -55,8 +55,11 @@ Evaluate forecasting performance using standard regression metrics.
 
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 
-# UK ELECTRICITY GENERATION & DECARBONISATION DASHBOARD (2024-2025)
-<img width="1466" height="806" alt="2024 A" src="https://github.com/user-attachments/assets/aaabb732-c5b3-4eed-85dd-7144572d91d6" />
+# UK ELECTRICITY GENERATION & DECARBONISATION DASHBOARD (2020-2025 DATASET)
+![NESO (2)_page-0001](https://github.com/user-attachments/assets/d2210bdc-1d70-4ff8-813a-30ab24ef957b)
+
+
+
 An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the period 2024–2025 using half-hourly system data. The objective of the study was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
 
 The design sought to determine how the GB electricity mix is structured during the study period, whether renewable generation has materially displaced fossil fuels, how fuel composition influences carbon intensity, and when the system experiences elevated stress or emissions.
@@ -67,7 +70,7 @@ The dataset consisted of half-hourly generation records across major fuel source
 
 The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.
 
-<img width="1466" height="830" alt="2024 B" src="https://github.com/user-attachments/assets/08c98f25-eb9e-4786-b394-6df4b31fcaa6" />
+![NESO (2)_page-0002](https://github.com/user-attachments/assets/6107ea69-f18c-4aaa-ad78-4a9e30755b6a)
 
 
 The dashboard begins with a high-level KPI panel presenting total generation, average carbon intensity, average renewable share, peak demand, and record generation values for wind and solar. This section provides an immediate executive snapshot of system performance during the study period. It allows rapid evaluation of overall demand magnitude, renewable penetration levels and emission intensity trends.
@@ -91,7 +94,7 @@ A matrix-based heatmap was constructed to visualise hourly demand behaviour acro
 The 2024–2025 exploratory analysis successfully delivered a structured and insight-driven Power BI dashboard capable of visualising generation dynamics, quantifying renewable displacement of fossil fuels, demonstrating carbon-emission relationships, and identifying operational stress periods.
 The dashboard is suitable for executive reporting, energy system analysis, policy discussion and portfolio demonstration. Its modular design allows for scalability and future expansion into longer historical datasets or forecasting extensions.
 
-# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION DATASET
+# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION (2009-2026) DATASET
 
 # DATASET DESCRIPTION
 # Data Overview
