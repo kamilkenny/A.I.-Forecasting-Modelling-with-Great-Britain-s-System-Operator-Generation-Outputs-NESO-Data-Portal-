@@ -56,6 +56,7 @@ Establish a benchmark model for comparison with deep learning architectures (LST
 # UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
 
 ![NESO (2)_page-0001](https://github.com/user-attachments/assets/e9f4fc08-9011-4d50-ab91-4902a827f15a)
+![NESO (2)_page-0002](https://github.com/user-attachments/assets/6107ea69-f18c-4aaa-ad78-4a9e30755b6a)
 
 
 An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the period 2020–2025 using half-hourly system data. The objective of the study was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
@@ -87,7 +88,6 @@ A waterfall visual was developed to distinguish between zero-carbon generation a
 # Temporal Behaviour Heatmap
 A matrix-based heatmap was constructed to visualise hourly demand behaviour across months. Conditional formatting was applied to reveal seasonal and intraday patterns.
 
-![NESO (2)_page-0002](https://github.com/user-attachments/assets/6107ea69-f18c-4aaa-ad78-4a9e30755b6a)
 
 # Strategic Relevance 
 The 2020–2025 exploratory analysis successfully delivered a structured and insight-driven Power BI dashboard capable of visualising generation dynamics, quantifying renewable displacement of fossil fuels, demonstrating carbon-emission relationships, and identifying operational stress periods.
