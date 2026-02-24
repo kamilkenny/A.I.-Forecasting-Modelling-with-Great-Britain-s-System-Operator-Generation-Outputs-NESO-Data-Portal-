@@ -93,7 +93,7 @@ A matrix-based heatmap was constructed to visualise hourly demand behaviour acro
 The 2020–2025 exploratory analysis successfully delivered a structured and insight-driven Power BI dashboard capable of visualising generation dynamics, quantifying renewable displacement of fossil fuels, demonstrating carbon-emission relationships, and identifying operational stress periods.
 The dashboard is suitable for executive reporting, energy system analysis, policy discussion and portfolio demonstration. Its modular design allows for scalability and future expansion into longer historical datasets or forecasting extensions.
 
-# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION (2009-2026) DATASET
+# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION (2009–2026) DATASET USING PYTHON VISUALISATION TOOLS (SEABORN, MATPLOTLIB AND PLOTLY)
 
 # DATASET DESCRIPTION
 # Data Overview
