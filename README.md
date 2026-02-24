@@ -52,7 +52,6 @@ Develop a machine learning forecasting model using XGBoost.
 Evaluate forecasting performance using standard regression metrics.
 
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
-
 # UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
 ![NESO (3)_page-0001](https://github.com/user-attachments/assets/e50a2ef9-0208-4c4d-a68f-682a1c83e5e8)
 ![NESO (3)_page-0002](https://github.com/user-attachments/assets/dfc1e46d-d79e-4e1d-b84b-f332a29c9853)
