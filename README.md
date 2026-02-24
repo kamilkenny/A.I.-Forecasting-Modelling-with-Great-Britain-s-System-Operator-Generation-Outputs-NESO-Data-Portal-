@@ -68,8 +68,6 @@ The dataset consisted of half-hourly generation records across major fuel source
 
 The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.
 
-![NESO (2)_page-0002](https://github.com/user-attachments/assets/6107ea69-f18c-4aaa-ad78-4a9e30755b6a)
-
 
 The dashboard begins with a high-level KPI panel presenting total generation, average carbon intensity, average renewable share, peak demand, and record generation values for wind and solar. This section provides an immediate executive snapshot of system performance during the study period. It allows rapid evaluation of overall demand magnitude, renewable penetration levels and emission intensity trends.
 
@@ -88,6 +86,9 @@ Net demand was calculated as total generation minus wind and solar output, repre
 A waterfall visual was developed to distinguish between zero-carbon generation and low-carbon generation. Zero-carbon output, comprising wind, solar, hydro and nuclear, was separated from biomass to illustrate the structural composition of low-carbon supply. This decomposition clarifies that low-carbon generation is not entirely zero-emission, and it quantifies the specific contribution of biomass within the overall low-carbon category.
 # Temporal Behaviour Heatmap
 A matrix-based heatmap was constructed to visualise hourly demand behaviour across months. Conditional formatting was applied to reveal seasonal and intraday patterns.
+
+![NESO (2)_page-0002](https://github.com/user-attachments/assets/6107ea69-f18c-4aaa-ad78-4a9e30755b6a)
+
 # Strategic Relevance 
 The 2024–2025 exploratory analysis successfully delivered a structured and insight-driven Power BI dashboard capable of visualising generation dynamics, quantifying renewable displacement of fossil fuels, demonstrating carbon-emission relationships, and identifying operational stress periods.
 The dashboard is suitable for executive reporting, energy system analysis, policy discussion and portfolio demonstration. Its modular design allows for scalability and future expansion into longer historical datasets or forecasting extensions.
