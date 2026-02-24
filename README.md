@@ -7,7 +7,7 @@
 
 
 
-## 📖 Project Overview
+## 📖PROJECT OVERVIEW
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
 This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
@@ -28,7 +28,7 @@ Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time).
 
 # The Design and Development was done in Python and uploaded as a file in this respository 
 
-# Introduction
+# TNTRODUCTION
 
 The UK electricity system has undergone significant transformation due to increasing renewable penetration, declining coal usage, and evolving demand patterns. Accurate short-term electricity generation forecasting is critical for:
 
@@ -40,7 +40,7 @@ The UK electricity system has undergone significant transformation due to increa
 
 **- Carbon reduction strategy**
 
-# Project Objective
+# PROJECT OBJECTIVES
 
 The objective of this study is to:
 
@@ -54,7 +54,45 @@ Evaluate forecasting performance using standard regression metrics.
 
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 
-# Dataset Description
+# UK ELECTRICITY GENERATION & DECARBONISATION DASHBOARD (2024-2025)
+<img width="1466" height="806" alt="2024 A" src="https://github.com/user-attachments/assets/aaabb732-c5b3-4eed-85dd-7144572d91d6" />
+An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the period 2024–2025 using half-hourly system data. The objective of the study was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
+
+The design sought to determine how the GB electricity mix is structured during the study period, whether renewable generation has materially displaced fossil fuels, how fuel composition influences carbon intensity, and when the system experiences elevated stress or emissions.
+
+# Data Context and Structure
+
+The dataset consisted of half-hourly generation records across major fuel sources including gas, coal, nuclear, wind, solar, hydro, biomass and imports. Aggregated system metrics such as total generation, fossil contribution, renewable contribution, zero-carbon generation, low-carbon generation and carbon intensity were also included. The availability of both absolute generation values in megawatts and percentage shares enabled analysis of structural composition independent of demand fluctuations.
+
+The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.
+
+<img width="1466" height="830" alt="2024 B" src="https://github.com/user-attachments/assets/08c98f25-eb9e-4786-b394-6df4b31fcaa6" />
+
+
+The dashboard begins with a high-level KPI panel presenting total generation, average carbon intensity, average renewable share, peak demand, and record generation values for wind and solar. This section provides an immediate executive snapshot of system performance during the study period. It allows rapid evaluation of overall demand magnitude, renewable penetration levels and emission intensity trends.
+
+By consolidating key indicators at the top of the dashboard, the design mirrors the reporting style used within transmission system operations and policy briefings, ensuring clarity and immediate interpretability.
+# Executive-Level System Indicators
+The dashboard begins with a high-level KPI panel presenting total generation, average carbon intensity, average renewable share, peak demand, and record generation values for wind and solar.
+# Structural Fuel Mix Analysis 
+The structural behaviour of the generation mix was examined through stacked area charts representing both absolute megawatt contribution and percentage share composition.
+# Fossil versus Renewable Transition
+A dual-line visual comparing fossil share and renewable share was constructed to assess structural crossover behaviour. This comparison highlights the relative balance between dispatchable fossil generation and variable renewable output. This comparison directly supports evaluation of national transition goals by illustrating how renewable penetration is reshaping the structural composition of the generation mix.
+# Carbon Intensity Behaviour and Correlation
+Carbon intensity trends were analysed using temporal line charts and correlation-based scatter plots. The trend visual reveals seasonal variation, with winter periods displaying elevated carbon intensity consistent with increased reliance on fossil-based generation during high-demand conditions.
+# Net Demand and System Stress Indicators
+Net demand was calculated as total generation minus wind and solar output, representing the demand that must be met by dispatchable sources such as gas, nuclear and imports. This derived metric provides insight into system stress and flexibility requirements.
+# Zero Carbon versus Low Carbon Decomposition
+A waterfall visual was developed to distinguish between zero-carbon generation and low-carbon generation. Zero-carbon output, comprising wind, solar, hydro and nuclear, was separated from biomass to illustrate the structural composition of low-carbon supply. This decomposition clarifies that low-carbon generation is not entirely zero-emission, and it quantifies the specific contribution of biomass within the overall low-carbon category.
+# Temporal Behaviour Heatmap
+A matrix-based heatmap was constructed to visualise hourly demand behaviour across months. Conditional formatting was applied to reveal seasonal and intraday patterns.
+# Strategic Relevance 
+The 2024–2025 exploratory analysis successfully delivered a structured and insight-driven Power BI dashboard capable of visualising generation dynamics, quantifying renewable displacement of fossil fuels, demonstrating carbon-emission relationships, and identifying operational stress periods.
+The dashboard is suitable for executive reporting, energy system analysis, policy discussion and portfolio demonstration. Its modular design allows for scalability and future expansion into longer historical datasets or forecasting extensions.
+
+# EXPLORATORY DATA ANALYSIS (EDA) – UK ELECTRICITY GENERATION DATASET
+
+# DATASET DESCRIPTION
 # Data Overview
 
 The dataset consists of time-indexed UK electricity generation values at hourly resolution.
