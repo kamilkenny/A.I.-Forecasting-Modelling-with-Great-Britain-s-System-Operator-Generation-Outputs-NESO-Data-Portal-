@@ -2,7 +2,6 @@
 
 # AI-DRIVEN FORECASTING AND MODELLING OF GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID PLANNING AND DECARBONISATION PATHWAYS
 
-![NESO (2)_page-0001](https://github.com/user-attachments/assets/fb7a70e4-1dc8-4830-9e3e-1e6f2351cac1)
 
 
 [NESO (2).pdf](https://github.com/user-attachments/files/25503408/NESO.2.pdf)
