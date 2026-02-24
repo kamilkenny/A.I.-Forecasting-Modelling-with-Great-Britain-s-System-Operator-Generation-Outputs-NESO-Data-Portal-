@@ -7,6 +7,7 @@
 
 
 ## 📖PROJECT OVERVIEW
+
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
 This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
