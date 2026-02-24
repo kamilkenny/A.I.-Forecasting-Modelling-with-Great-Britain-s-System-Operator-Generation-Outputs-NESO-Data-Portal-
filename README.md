@@ -53,7 +53,7 @@ Evaluate forecasting performance using standard regression metrics.
 
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 
-# UK ELECTRICITY GENERATION & DECARBONISATION DASHBOARD (2020-2025 DATASET)
+# UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
 
 ![NESO (2)_page-0001](https://github.com/user-attachments/assets/e9f4fc08-9011-4d50-ab91-4902a827f15a)
 
