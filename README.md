@@ -65,7 +65,10 @@ The project sought to determine how the GB electricity mix is structured during 
 The dataset consisted of half-hourly generation records across major fuel sources including gas, coal, nuclear, wind, solar, hydro, biomass and imports. Aggregated system metrics such as total generation, fossil contribution, renewable contribution, zero-carbon generation, low-carbon generation and carbon intensity were also included. The availability of both absolute generation values in megawatts and percentage shares enabled analysis of structural composition independent of demand fluctuations.
 
 The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.
+# Fossil versus Renewable Transition
+A dual-line visual comparing fossil share and renewable share was constructed to assess structural crossover behaviour. This comparison highlights the relative balance between dispatchable fossil generation and variable renewable output. This comparison directly supports evaluation of national transition goals by illustrating how renewable penetration is reshaping the structural composition of the generation mix.
 
+![NESO (4)_page-0004](https://github.com/user-attachments/assets/ee8f0ffa-2c84-4154-9156-f84c9b574e09)
 
 The dashboard begins with a high-level **KPI Panel** presenting total generation, average carbon intensity, average renewable share and peak demand. This section provides an immediate executive snapshot of system performance during the study period. It allows rapid evaluation of overall demand magnitude, renewable penetration levels and emission intensity trends.
 
@@ -74,8 +77,7 @@ By consolidating key indicators at the top of the dashboard, the design mirrors 
 The dashboard begins with a high-level KPI panel presenting total generation, average carbon intensity, average renewable share, peak demand, and record generation values for wind and solar.
 # Structural Fuel Mix Analysis 
 The structural behaviour of the generation mix was examined through stacked area charts representing both absolute megawatt contribution and percentage share composition.
-# Fossil versus Renewable Transition
-A dual-line visual comparing fossil share and renewable share was constructed to assess structural crossover behaviour. This comparison highlights the relative balance between dispatchable fossil generation and variable renewable output. This comparison directly supports evaluation of national transition goals by illustrating how renewable penetration is reshaping the structural composition of the generation mix.
+
 # Carbon Intensity Behaviour and Correlation
 Carbon intensity trends were analysed using temporal line charts and correlation-based scatter plots. The trend visual reveals seasonal variation, with winter periods displaying elevated carbon intensity consistent with increased reliance on fossil-based generation during high-demand conditions.
 # Net Demand and System Stress Indicators
