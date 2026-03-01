@@ -57,7 +57,7 @@ Establish a benchmark model for comparison with deep learning architectures (LST
 ![NESO (3)_page-0001](https://github.com/user-attachments/assets/e50a2ef9-0208-4c4d-a68f-682a1c83e5e8)
 ![NESO (3)_page-0002](https://github.com/user-attachments/assets/dfc1e46d-d79e-4e1d-b84b-f332a29c9853)
 An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the Period **2020–2025 using half-hourly neso system historical data.** The objective of the case analysis project was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
-![NESO (4)_page-0004](https://github.com/user-attachments/assets/b7c6283d-8f80-4bd1-b7f5-1209b1c6357b)
+
 The project sought to determine how the GB electricity mix is structured during the study period, whether renewable generation has materially displaced fossil fuels, how fuel composition influences carbon intensity, and when the system experiences elevated stress or emissions.
 
 # Data Context and Structure
@@ -82,6 +82,8 @@ Carbon intensity trends were analysed using temporal line charts and correlation
 Net demand was calculated as total generation minus wind and solar output, representing the demand that must be met by dispatchable sources such as gas, nuclear and imports. This derived metric provides insight into system stress and flexibility requirements.
 # Zero Carbon versus Low Carbon Decomposition
 A waterfall visual was developed to distinguish between zero-carbon generation and low-carbon generation. Zero-carbon output, comprising wind, solar, hydro and nuclear, was separated from biomass to illustrate the structural composition of low-carbon supply. This decomposition clarifies that low-carbon generation is not entirely zero-emission, and it quantifies the specific contribution of biomass within the overall low-carbon category.
+![NESO (4)_page-0004](https://github.com/user-attachments/assets/45f6d851-1490-4823-b20d-c3e870ba2314)
+
 # Temporal Behaviour Heatmap
 A matrix-based heatmap was constructed to visualise hourly demand behaviour across months. Conditional formatting was applied to reveal seasonal and intraday patterns.
 
