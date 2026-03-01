@@ -54,8 +54,11 @@ Evaluate forecasting performance using standard regression metrics.
 
 Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 # UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
-![NESO (3)_page-0001](https://github.com/user-attachments/assets/e50a2ef9-0208-4c4d-a68f-682a1c83e5e8)
-![NESO (3)_page-0002](https://github.com/user-attachments/assets/dfc1e46d-d79e-4e1d-b84b-f332a29c9853)
+
+![NESO (5)_page-0001](https://github.com/user-attachments/assets/4a97e0a1-d5da-4411-841a-e43ae0744f9c)
+![NESO (5)_page-0002](https://github.com/user-attachments/assets/9e7e27d1-9e50-40c9-9a19-b9886607e64a)
+
+
 An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the Period **2020–2025 using half-hourly neso system historical data.** The objective of the case analysis project was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
 
 The project sought to determine how the GB electricity mix is structured during the study period, whether renewable generation has materially displaced fossil fuels, how fuel composition influences carbon intensity, and when the system experiences elevated stress or emissions.
@@ -68,7 +71,7 @@ The data was transformed within Power Query to ensure appropriate data types, te
 # Fossil versus Renewable Transition
 A dual-line visual comparing fossil share and renewable share was constructed to assess structural crossover behaviour. This comparison highlights the relative balance between dispatchable fossil generation and variable renewable output. This comparison directly supports evaluation of national transition goals by illustrating how renewable penetration is reshaping the structural composition of the generation mix.
 
-![NESO (4)_page-0004](https://github.com/user-attachments/assets/ee8f0ffa-2c84-4154-9156-f84c9b574e09)
+![NESO (5)_page-0004](https://github.com/user-attachments/assets/6be69600-8e4c-4bd5-bf9b-a41af271df23)
 
 The dashboard begins with a high-level **KPI Panel** presenting total generation, average carbon intensity, average renewable share and peak demand. This section provides an immediate executive snapshot of system performance during the study period. It allows rapid evaluation of overall demand magnitude, renewable penetration levels and emission intensity trends.
 
