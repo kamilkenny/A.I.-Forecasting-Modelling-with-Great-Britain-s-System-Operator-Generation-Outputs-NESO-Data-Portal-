@@ -87,7 +87,7 @@ Carbon intensity trends were analysed using temporal line charts and correlation
 Net demand was calculated as total generation minus wind and solar output, representing the demand that must be met by dispatchable sources such as gas, nuclear and imports. This derived metric provides insight into system stress and flexibility requirements.
 # Zero Carbon versus Low Carbon Decomposition
 A waterfall visual was developed to distinguish between zero-carbon generation and low-carbon generation. Zero-carbon output, comprising wind, solar, hydro and nuclear, was separated from biomass to illustrate the structural composition of low-carbon supply. This decomposition clarifies that low-carbon generation is not entirely zero-emission, and it quantifies the specific contribution of biomass within the overall low-carbon category.
-![NESO (4)_page-0004](https://github.com/user-attachments/assets/45f6d851-1490-4823-b20d-c3e870ba2314)
+
 
 # Temporal Behaviour Heatmap
 A matrix-based heatmap was constructed to visualise hourly demand behaviour across months. Conditional formatting was applied to reveal seasonal and intraday patterns.
