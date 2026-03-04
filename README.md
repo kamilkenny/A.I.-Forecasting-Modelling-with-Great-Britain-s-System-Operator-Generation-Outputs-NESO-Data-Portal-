@@ -1,6 +1,6 @@
 
 
-# AI-DRIVEN FORECASTING AND MODELLING OF GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS TO OPTIMISE NATIONAL GRID PLANNING AND DECARBONISATION PATHWAYS
+# AI-DRIVEN FORECASTING AND MODELLING OF GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS (2009 -2026) TO OPTIMISE NATIONAL GRID PLANNING AND DECARBONISATION PATHWAYS
 
 <img width="1536" height="1024" alt="ChatGPT Image Feb 18, 2026, 06_41_12 PM" src="https://github.com/user-attachments/assets/98304a11-a2e9-4655-9775-29c51f486ef0" />
 
@@ -10,7 +10,7 @@
 
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
-This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data (2009–2026) from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
+This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data **(2009–2026)** from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
 
 # The Develope Forecasting Model has been deployed on this Streamlit web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/ 
 
