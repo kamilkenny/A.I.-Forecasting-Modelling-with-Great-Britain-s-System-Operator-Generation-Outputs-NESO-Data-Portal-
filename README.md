@@ -311,6 +311,7 @@ is_weekend (True/False)
 <img width="1023" height="470" alt="download" src="https://github.com/user-attachments/assets/bb0e775e-cf66-4ed2-9079-17ddb14df701" />
 <img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/fb1c815f-399d-4f4e-8581-8256fa1663d2" />
 <img width="1158" height="528" alt="download" src="https://github.com/user-attachments/assets/c0436351-75a1-4823-9803-a4d8584da161" />
+
 # 1️⃣ R² = 0.9923 → Extremely High Fit
 
 # R² of 0.9923 means:
