@@ -595,3 +595,5 @@ While the overall precision is world-class, the model currently exhibits a posit
 
 
 # KAMIL, RIDWAN 
+https://medium.com/@kamilkenny22/ai-driven-forecasting-and-modelling-of-great-britains-system-operator-generation-outputs-bdcce3a6a387?postPublishedType=repub
+
