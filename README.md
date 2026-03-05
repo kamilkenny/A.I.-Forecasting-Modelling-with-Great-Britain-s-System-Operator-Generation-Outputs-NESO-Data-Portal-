@@ -67,7 +67,7 @@ The project sought to determine how the GB electricity mix is structured during 
 
 The dataset consisted of half-hourly generation records across major fuel sources including gas, coal, nuclear, wind, solar, hydro, biomass and imports. Aggregated system metrics such as total generation, fossil contribution, renewable contribution, zero-carbon generation, low-carbon generation and carbon intensity were also included. The availability of both absolute generation values in megawatts and percentage shares enabled analysis of structural composition independent of demand fluctuations.
 
-The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.
++**The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.**
 # Fossil versus Renewable Transition
 A dual-line visual comparing fossil share and renewable share was constructed to assess structural crossover behaviour. This comparison highlights the relative balance between dispatchable fossil generation and variable renewable output. This comparison directly supports evaluation of national transition goals by illustrating how renewable penetration is reshaping the structural composition of the generation mix.
 
@@ -374,17 +374,17 @@ Your RMSE (543 MW) > MAE (408 MW), which means:
 
 There are some larger occasional errors, likely during:
 
-# Sudden wind ramps
+**Sudden wind ramps**
 
-# Evening demand ramps
+**Evening demand ramps**
 
-# Extreme weather days
+**Extreme weather days**
 
-# Low solar winter periods
+**Low solar winter periods**
 
-Difference:
+**Difference:**
 
-543 − 408 = 135 MW
+**543 − 408 = 135 MW**
 
 This gap is moderate → not extreme. If RMSE were much larger than MAE, we would suspect:
 Severe spike failures
@@ -397,7 +397,7 @@ But your model looks stable.
 
 # Bias = +15.7 MW
 
-# Interpretation:
+**Interpretation:**
 
 On average, the model overpredicts generation by 15.7 MW.
 
