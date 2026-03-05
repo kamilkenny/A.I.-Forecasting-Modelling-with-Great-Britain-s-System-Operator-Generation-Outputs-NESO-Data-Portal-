@@ -10,7 +10,7 @@
 
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 
-This project utilizes a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data **(2009–2026)** from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
+This project utilises a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training on historical data **(2009–2026)** from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics.
 
 # The Developed Forecasting Model has been deployed on this Streamlit web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/ 
 
@@ -22,11 +22,11 @@ The deployed web-based-app can perform **Offline-Inferencing** also known as **H
 * **Renewable Integration:** Optimize the dispatch of zero-carbon sources.
 * **Operational Efficiency:** Reduce reliance on expensive, high-carbon reserve plants.
   
-This case study analyzes UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
+This case study analyses UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data Source - Historic GB Generation Mix
 Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
 
-# The Design and Development was done in Python and uploaded as a file in this respository 
+# The Design and Development was done in Python and uploaded as a file in this repository 
 
 # INTRODUCTION
 
@@ -59,7 +59,7 @@ Establish a benchmark model for comparison with deep learning architectures (LST
 ![NESO (5)_page-0002](https://github.com/user-attachments/assets/9e7e27d1-9e50-40c9-9a19-b9886607e64a)
 
 
-An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the Period **2020–2025 using half-hourly neso system historical data.** The objective of the case analysis project was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
+An analytical dashboard developed in Microsoft Power BI to explore Great Britain’s electricity generation mix over the Period **2020–2025 using modelling historical data.** The objective of the case analysis project was to construct an interactive visual framework capable of examining structural fuel composition, renewable penetration levels, carbon intensity behaviour, and system stress indicators at a national scale. The dashboard was designed not merely as a visualisation exercise, but as a structured analytical tool aligned with large-scale energy system objectives such as decarbonisation monitoring, operational flexibility assessment, and generation planning insight.
 
 The project sought to determine how the GB electricity mix is structured during the study period, whether renewable generation has materially displaced fossil fuels, how fuel composition influences carbon intensity, and when the system experiences elevated stress or emissions.
 
@@ -195,7 +195,7 @@ Low Carbon: Mean ≈ 41.8%
 
 Zero Carbon: Mean ≈ 43.1%
 
-# 4. Initial Visualization Insights A. Source Contribution Over Time
+# 4. Initial Visualisation Insights A. Source Contribution Over Time
 **A. Line plots of monthly averages by source reveal:**
 
 Coal share declining over the years.
