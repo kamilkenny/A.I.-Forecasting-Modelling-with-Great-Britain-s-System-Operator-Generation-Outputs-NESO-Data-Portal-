@@ -44,15 +44,15 @@ The UK electricity system has undergone significant transformation due to increa
 
 The objective of this study is to:
 
-Perform comprehensive exploratory data analysis (EDA) on UK electricity generation data.
+- Perform comprehensive exploratory data analysis (EDA) on UK electricity generation data.
 
-Engineer predictive temporal and structural features.
+- Engineer predictive temporal and structural features.
 
-Develop a machine learning forecasting model using XGBoost.
+- Develop a machine learning forecasting model using XGBoost.
 
-Evaluate forecasting performance using standard regression metrics.
+- Evaluate forecasting performance using standard regression metrics.
 
-Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
+- Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 # UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
 
 ![NESO (5)_page-0001](https://github.com/user-attachments/assets/4a97e0a1-d5da-4411-841a-e43ae0744f9c)
