@@ -430,7 +430,7 @@ For day-ahead planning.
 
 # STEP 1 — Define Targets
 # STEP 2 — Feature Engineering (Source-Aware)
-I created lags per source. Because each source has different behavior:
+I created lags per source. Because each source has different behaviour:
 
 Wind → stochastic, autocorrelated
 
