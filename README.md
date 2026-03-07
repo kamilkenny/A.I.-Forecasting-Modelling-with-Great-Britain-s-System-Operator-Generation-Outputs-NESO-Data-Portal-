@@ -361,7 +361,7 @@ In power system planning:
 
 <2% MAE → strong 2–4% → acceptable 5% → operational concern
 
-Your model ≈ ~1–1.5% average deviation
+The model ≈ ~1–1.5% average deviation
 
 ✅ Operationally strong.
 
@@ -370,7 +370,7 @@ Your model ≈ ~1–1.5% average deviation
 
 # RMSE penalizes larger errors more than MAE.
 
-Your RMSE (543 MW) > MAE (408 MW), which means:
+The RMSE (543 MW) > MAE (408 MW), which means:
 
 There are some larger occasional errors, likely during:
 
@@ -393,7 +393,7 @@ Storm ramp errors
 
 Rare high-magnitude misses
 
-But your model looks stable.
+But the model looks stable.
 
 # Bias = +15.7 MW
 
@@ -493,7 +493,7 @@ Forecast Bias: -149.17 MW
 
 Negative bias → the model tends to underpredict wind generation on average.
 
-Considering wind’s max can reach ~18,382 MW (from your earlier stats), this bias is moderate but worth noting for operational planning.
+Considering wind’s max can reach ~18,382 MW, this bias is moderate but worth noting for operational planning.
 
 Interpretation: High R² and moderate bias indicate good overall predictive performance, but NESO should be cautious about slight underestimation during high wind periods.
 
