@@ -16,7 +16,7 @@ This project utilises a **Multivariate Time-Series approach** to predict Total E
 
 # or/and Render web-link:https://deployment-of-uk-electricity-generation.onrender.com/
 The deployed web-based-app can perform **Offline-Inferencing** also known as **HINDCASTING** of past times steps to estimate the residual errors of the model and **FORECASTING** future time steps of generation output.
-
+# Medium Page: https://medium.com/@kamilkenny22/ai-driven-forecasting-and-modelling-of-great-britains-system-operator-generation-outputs-bdcce3a6a387?postPublishedType=repub
 ### Key Objectives:
 * **Grid Balancing:** Predict supply requirements to maintain frequency stability.
 * **Renewable Integration:** Optimize the dispatch of zero-carbon sources.
