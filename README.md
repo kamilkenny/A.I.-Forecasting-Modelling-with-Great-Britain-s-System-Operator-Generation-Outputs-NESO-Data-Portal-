@@ -26,7 +26,8 @@ The deployed web-based-app can perform **Offline-Inferencing** also known as **H
   
 This case study analyses UK electricity generation data with the objective of understanding generation dynamics and developing a machine learning model to forecast total electricity generation.
 # Data Source - Historic GB Generation Mix
-Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %
+Historic GB generation mix from the 1st of Jan 2009 through to 2026 (Real-Time). Data points are either MW or %.
+
 *The project utilized Databricks for the high-performance ingestion and structuring of massive datasets, which were subsequently managed within a MySQL environment to ensure relational integrity.*
 
 # The Design and Development was done in Python and uploaded as a file in this repository 
