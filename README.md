@@ -5,7 +5,7 @@
 
 <img width="960" height="720" alt="20241206_Grid_energy_storage svg" src="https://github.com/user-attachments/assets/7c0b05f4-2e08-473c-b45c-7acdbf142436" />
 
-<img width="1536" height="1024" alt="ChatGPT Image Feb 18, 2026, 06_41_12 PM" src="https://github.com/user-attachments/assets/98304a11-a2e9-4655-9775-29c51f486ef0" />
+
 
 
 
