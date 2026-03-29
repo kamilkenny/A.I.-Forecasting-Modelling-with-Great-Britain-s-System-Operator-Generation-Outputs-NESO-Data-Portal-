@@ -267,7 +267,8 @@ Carbon intensity indicators
 <img width="1084" height="525" alt="newplot (14)" src="https://github.com/user-attachments/assets/0d2a621a-dd26-493d-b18c-960763889675" />
 
 # FEATURES ENGINEERING
-<img width="618" height="715" alt="ChatGPT Image Feb 15, 2026, 02_21_05 PM" src="https://github.com/user-attachments/assets/b99ea926-ebb0-4436-b302-35b713faa554" />
+
+<img width="618" height="715" alt="modelling xgboost" src="https://github.com/user-attachments/assets/8938e2c0-9867-4f69-bf8e-f99d5f8807ef" />
 
 
 
@@ -305,7 +306,8 @@ is_weekend (True/False)
 
 # DAY-AHEAD (SHORT-TERM) TOTAL GENERATION FORECASTING USING XGBOOST
 
-<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 02_42_54 PM" src="https://github.com/user-attachments/assets/7c76a548-0af0-4556-a811-62a2a4909aae" />
+<img width="1536" height="1024" alt="xgboost 2" src="https://github.com/user-attachments/assets/3f167f3e-a523-4dc3-928d-18697e737485" />
+
 
 
 
@@ -414,7 +416,8 @@ Relative to total generation (~30,000–40,000 MW), this is extremely small.
 
 # **SOURCE-LEVEL CONTRIBUTION FORECASTING (TO HELP NESO PLAN FOR RENEWABLE PENETRATION, FOSSIL FALLBACK, AND IMPORTS)**
 
-<img width="1536" height="1024" alt="ChatGPT Image Feb 15, 2026, 02_38_21 PM" src="https://github.com/user-attachments/assets/6bce2207-3a95-4562-b3a6-5392e97f091f" />
+<img width="1536" height="1024" alt="source level" src="https://github.com/user-attachments/assets/d4eed29f-5a43-4d93-8e55-593dbb84c2db" />
+
 
 
 # SYSTEM LEVEL OPERATIONAL FORECASTING
@@ -598,7 +601,8 @@ While the overall precision is world-class, the model currently exhibits a posit
 
 **- Increasingly influenced by renewable variability**
 
-![grid](https://github.com/user-attachments/assets/33ebada4-335f-4980-8dba-5f8877019e59)
+![modeller kamil](https://github.com/user-attachments/assets/9bab5845-eb3a-42ee-96b7-bc749b277269)
+
 
 
 # KAMIL, RIDWAN 
