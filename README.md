@@ -3,8 +3,9 @@
 # AI-DRIVEN FORECASTING AND MODELLING OF GREAT BRITAIN’S SYSTEM OPERATOR GENERATION OUTPUTS (2009-2026) TO OPTIMISE NATIONAL GRID PLANNING AND DECARBONISATION PATHWAYS
 
 
-<img width="960" height="720" alt="20241206_Grid_energy_storage svg" src="https://github.com/user-attachments/assets/7c0b05f4-2e08-473c-b45c-7acdbf142436" />
 
+
+![20230408_TQD005](https://github.com/user-attachments/assets/9155312b-5c20-423b-90d5-a78c4247ad7f)
 
 
 
