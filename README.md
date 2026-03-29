@@ -13,7 +13,8 @@
 ## 📖PROJECT OVERVIEW
 
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
-<img width="960" height="720" alt="20241206_Grid_energy_storage svg" src="https://github.com/user-attachments/assets/7c0b05f4-2e08-473c-b45c-7acdbf142436" />
+<img width="1536" height="1024" alt="grid set up" src="https://github.com/user-attachments/assets/5c9cd992-531f-431e-b2b6-42bddfdcd886" />
+
 This project utilises a **Multivariate Time-Series approach** to predict Total Electricity Generation. By training a machine and deep learning model on historical data **(2009–2026)** from the **NESO Data Bank Portal**, the model identifies seasonal rhythms, daily demand ramps, and long-term trends to provide actionable grid analytics using **16 years of half-hourly Great Britain operational energy mix data (1.14 billion MW records).**
 
 # The Developed Forecasting Model has been deployed on this Streamlit web-link: https://kamil-uk-energy-generation-real-time-forecast.streamlit.app/ 
