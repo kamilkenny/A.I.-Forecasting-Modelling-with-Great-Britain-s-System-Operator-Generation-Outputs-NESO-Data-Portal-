@@ -7,7 +7,7 @@
 
 ![20230408_TQD005](https://github.com/user-attachments/assets/9155312b-5c20-423b-90d5-a78c4247ad7f)
 
-<img width="1536" height="1024" alt="ChatGPT Image Feb 18, 2026, 06_41_12 PM" src="https://github.com/user-attachments/assets/98304a11-a2e9-4655-9775-29c51f486ef0" />
+
 
 
 ## 📖PROJECT OVERVIEW
