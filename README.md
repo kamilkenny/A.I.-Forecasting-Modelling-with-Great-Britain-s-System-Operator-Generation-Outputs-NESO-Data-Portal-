@@ -10,7 +10,7 @@
 
 
 
-## 📖PROJECT OVERVIEW
+## 📖PROJECT OVERVIEW  
 
 The UK electricity system is transitioning rapidly. Accurate short-term forecasting is vital for balancing the grid as we integrate more intermittent renewable sources. 
 <img width="1536" height="1024" alt="grid set up" src="https://github.com/user-attachments/assets/5c9cd992-531f-431e-b2b6-42bddfdcd886" />
