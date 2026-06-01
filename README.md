@@ -551,12 +551,12 @@ Negative bias → model tends to underpredict imports, which is critical as unde
 
 Interpretation: NESO should be cautious; import forecasts are less reliable, and contingency plans may be required.
 
-# UNIVARIATE LONG SHORT-TERM MEMORY (LSTM) FOR GRID GENERATION FORECASTING
+# UNIVARIATE BI - LONG SHORT-TERM MEMORY (BILSTM) / INFORMER MODEL FOR GRID GENERATION MIX FORECASTING
 UNIVARIATE LSTM: Relies solely on the lookback window (Last 24 hours). 
 
-MULTIVARIATE LSTM: Incorporates SINE/COSINE CYCLICAL FEATURES.
+MULTIVARIATE LSTM: INCOPORATES FEATURES ENGENEERING COVARIATES AND SECONDARY FEATURES
 
-# Univariate LSTM - Full Modelling Result Evaluation Profile:
+
 R² Score : 0.9918
 MAE      : 426.86 MW
 RMSE     : 560.71 MW
