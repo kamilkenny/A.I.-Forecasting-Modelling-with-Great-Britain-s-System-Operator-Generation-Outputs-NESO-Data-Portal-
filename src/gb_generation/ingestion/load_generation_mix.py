@@ -161,6 +161,47 @@ def fetch_latest_records(limit: int) -> list[dict]:
     return payload["result"]["records"]
 
 
+
+def fetch_records_after(
+    after_datetime: datetime | None,
+    limit: int,
+) -> list[dict]:
+    """Fetch one chronological NESO batch after a timestamp."""
+
+    if after_datetime is None:
+        where_clause = ""
+    else:
+        timestamp = after_datetime.isoformat(
+            sep=" ",
+            timespec="seconds",
+        )
+        where_clause = (
+            f'WHERE "DATETIME" > \'{timestamp}\' '
+        )
+
+    sql = (
+        f'SELECT * FROM "{RESOURCE_ID}" '
+        f'{where_clause}'
+        f'ORDER BY "DATETIME" ASC '
+        f'LIMIT {int(limit)}'
+    )
+
+    response = requests.get(
+        NESO_API_URL,
+        params={"sql": sql},
+        timeout=60,
+    )
+    response.raise_for_status()
+
+    payload = response.json()
+
+    if payload.get("success") is not True:
+        raise RuntimeError(
+            f"NESO API request failed: {payload}"
+        )
+
+    return payload["result"]["records"]
+
 def create_pipeline_run(
     connection: psycopg.Connection,
     requested: int,
