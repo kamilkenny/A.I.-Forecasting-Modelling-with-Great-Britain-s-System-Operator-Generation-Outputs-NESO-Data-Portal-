@@ -1,0 +1,13 @@
+
+# Live PostgreSQL configuration
+.env
+.env.*
+!.env.example
+# Local pipeline outputs
+data/raw/
+data/staging/
+logs/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
