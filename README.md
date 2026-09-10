@@ -62,6 +62,46 @@ The objective of this study is to:
 - Establish a benchmark model for comparison with deep learning architectures (LSTM and Informer).
 # UK ELECTRICITY GENERATION & DECARBONISATION POWER BI ANALYTIC DASHBOARD (2020-2025 DATASET)
 
+## Power BI Live Deployment Milestone
+
+The project has progressed from a static historical Power BI analysis into a live, database driven GB electricity generation intelligence platform.
+
+The original Power BI dashboard was developed from locally downloaded NESO generation data. The reporting model has now been migrated to a PostgreSQL backend while preserving the existing Power BI report pages, visual design, calculated measures and DAX logic.
+
+### Current Architecture
+
+```mermaid
+flowchart TD
+
+    A[NESO Data Portal API] --> B[Python Ingestion Pipeline]
+
+    B --> C[Historical Backfill]
+    B --> D[Incremental Ingestion]
+
+    D --> E[48 Hour Revision Lookback]
+
+    C --> F[(Supabase PostgreSQL)]
+    E --> F
+
+    F --> G[Raw Layer]
+    G --> H[Staging Layer]
+    H --> I[Analytics and Gold Layer]
+
+    I --> J[Power BI Compatibility View]
+
+    J --> K[Power BI Desktop Semantic Model]
+
+    K --> L[Existing DAX Measures]
+    K --> M[Existing Dashboard Visuals]
+
+    L --> N[Power BI Service]
+    M --> N
+
+    N --> O[Scheduled Refresh]
+    O --> P[Web Published Energy Intelligence Dashboard]
+
+    Q[GitHub Actions] --> D
+
 ![NESO (5)_page-0001](https://github.com/user-attachments/assets/4a97e0a1-d5da-4411-841a-e43ae0744f9c)
 ![NESO (5)_page-0002](https://github.com/user-attachments/assets/9e7e27d1-9e50-40c9-9a19-b9886607e64a)
 
@@ -73,6 +113,8 @@ The project sought to determine how the GB electricity mix is structured during 
 # Data Context and Structure
 
 The dataset consisted of half-hourly generation records across major fuel sources including gas, coal, nuclear, wind, solar, hydro, biomass and imports. Aggregated system metrics such as total generation, fossil contribution, renewable contribution, zero-carbon generation, low-carbon generation and carbon intensity were also included. The availability of both absolute generation values in megawatts and percentage shares enabled analysis of structural composition independent of demand fluctuations.
+
+
 
 +**The data was transformed within Power Query to ensure appropriate data types, temporal segmentation and structural reorganisation for visual modelling. DAX measures were developed to support derived metrics such as net demand and carbon composition breakdown.**
 # Fossil versus Renewable Transition
