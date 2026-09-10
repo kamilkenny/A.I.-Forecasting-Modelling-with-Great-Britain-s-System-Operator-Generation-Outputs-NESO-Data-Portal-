@@ -66,41 +66,109 @@ The objective of this study is to:
 
 The project has progressed from a static historical Power BI analysis into a live, database driven GB electricity generation intelligence platform.
 
-The original Power BI dashboard was developed from locally downloaded NESO generation data. The reporting model has now been migrated to a PostgreSQL backend while preserving the existing Power BI report pages, visual design, calculated measures and DAX logic.
+The original Power BI dashboard was developed using locally downloaded NESO generation data. The reporting model has now been migrated to a PostgreSQL backend while preserving the existing Power BI report pages, visual design, calculated measures and DAX logic.
 
 ### Current Architecture
 
 ```mermaid
 flowchart TD
+    A["NESO Data Portal API"] --> B["Python Ingestion Pipeline"]
 
-    A[NESO Data Portal API] --> B[Python Ingestion Pipeline]
+    B --> C["Historical Backfill"]
+    B --> D["Incremental Ingestion"]
 
-    B --> C[Historical Backfill]
-    B --> D[Incremental Ingestion]
+    D --> E["48 Hour Revision Lookback"]
 
-    D --> E[48 Hour Revision Lookback]
-
-    C --> F[(Supabase PostgreSQL)]
+    C --> F[("Supabase PostgreSQL")]
     E --> F
 
-    F --> G[Raw Layer]
-    G --> H[Staging Layer]
-    H --> I[Analytics and Gold Layer]
+    F --> G["Raw Layer"]
+    G --> H["Staging Layer"]
+    H --> I["Analytics and Gold Layer"]
 
-    I --> J[Power BI Compatibility View]
+    I --> J["Power BI Compatibility View"]
 
-    J --> K[Power BI Desktop Semantic Model]
+    J --> K["Power BI Desktop Semantic Model"]
 
-    K --> L[Existing DAX Measures]
-    K --> M[Existing Dashboard Visuals]
+    K --> L["Existing DAX Measures"]
+    K --> M["Existing Dashboard Visuals"]
 
-    L --> N[Power BI Service]
+    L --> N["Power BI Service"]
     M --> N
 
-    N --> O[Scheduled Refresh]
-    O --> P[Web Published Energy Intelligence Dashboard]
+    N --> O["Scheduled Refresh"]
+    O --> P["Web Published Energy Intelligence Dashboard"]
 
-    Q[GitHub Actions] --> D
+    Q["GitHub Actions"] --> D
+```
+
+### Deployment Progress
+
+The live data platform now supports:
+
+- Automated NESO API ingestion using Python.
+- Historical backfill of GB generation data from 2009 onwards.
+- Incremental ingestion with a 48 hour revision lookback.
+- PostgreSQL Raw, Staging, Analytics and Gold data layers.
+- Automated pipeline execution using GitHub Actions.
+- Data quality validation and pipeline governance.
+- Power BI compatible PostgreSQL reporting views.
+- A dedicated read only Power BI database account.
+- Migration of the existing Power BI dashboard from a local CSV source to PostgreSQL.
+- Preservation of existing Power BI visuals, DAX measures and report design.
+- Publication of the migrated dashboard to Power BI Service.
+
+### End to End Data Flow
+
+```mermaid
+flowchart LR
+    A["NESO API"] --> B["Python"]
+    B --> C["PostgreSQL Raw"]
+    C --> D["Staging"]
+    D --> E["Analytics and Gold"]
+    E --> F["Power BI"]
+    F --> G["Power BI Service"]
+    G --> H["Web Dashboard"]
+
+    I["GitHub Actions"] --> B
+```
+
+### Key Achievement
+
+The existing Power BI dashboard was migrated from a static local CSV source to the live PostgreSQL data platform without rebuilding the report.
+
+The migration preserved the existing:
+
+- Dashboard pages
+- Visuals
+- DAX measures
+- Calculated tables
+- Filters and slicers
+- Report formatting
+
+A dedicated PostgreSQL compatibility view allows the existing Power BI semantic model to consume live data while maintaining the original field structure expected by the report.
+
+```text
+NESO API
+    ↓
+Python Ingestion
+    ↓
+Supabase PostgreSQL
+    ↓
+Raw
+    ↓
+Staging
+    ↓
+Analytics and Gold
+    ↓
+Power BI Compatibility View
+    ↓
+Existing Power BI Model
+    ↓
+Existing DAX and Visuals
+    ↓
+Power BI Service
+```
 
 ![NESO (5)_page-0001](https://github.com/user-attachments/assets/4a97e0a1-d5da-4411-841a-e43ae0744f9c)
 ![NESO (5)_page-0002](https://github.com/user-attachments/assets/9e7e27d1-9e50-40c9-9a19-b9886607e64a)
